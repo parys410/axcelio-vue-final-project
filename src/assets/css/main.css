@@ -1,0 +1,25 @@
+@layer base {
+  h1,
+  h2,
+  h3,
+  h4,
+  h5 {
+    @apply font-heading;
+  }
+  body,
+  p {
+    @apply font-body;
+    color: rgba(59, 69, 78, 1);
+  }
+  a {
+    text-decoration: none;
+  }
+  a:active {
+    text-decoration: none;
+    color: rgb(52, 109, 219);
+  }
+  a:hover {
+    text-decoration: none;
+    color: rgb(52, 109, 219);
+  }
+}
